@@ -1,0 +1,40 @@
+
+/* *altera tudo oq estiver dentro do bory */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* estilizando o header */
+
+.header{
+    
+    background-color: #9400d3;
+    padding: 10vh;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    font-size: 2vh;
+
+}
+.header li a{
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.header a:hover{
+    color: black;
+    transition: 0.8s;
+}
+
+/* seção 2  */
+
+#sesao2{
+    padding: 35vh;
+    background: linear-gradient(321deg, rgba(255,255,255,1) 0%, rgba(148,0,211,1) 92%);
+
+}
