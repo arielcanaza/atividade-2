@@ -35,7 +35,7 @@
 /* seção 2  */
 
 #sesao2{
-    padding: 35vh;
+    padding: 39vh;
     background: linear-gradient(321deg, rgba(255,255,255,1) 0%, rgba(148,0,211,1) 92%);
     color: white;
     font: fallback;flex-wrap: wrap;
@@ -67,4 +67,22 @@ h1{
     color: #9400d3;
     cursor: pointer;
     border-color: #9400d3;
+}
+
+/* 3 parte do site nubank */
+
+#app{
+    display: flex;
+    padding: 9vw;
+}
+
+.div3{
+    font-size: 45px;
+    margin-left: 100px;
+    
+}
+.div3 p
+
+.div4{
+    margin-left: 250px;
 }
