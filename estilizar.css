@@ -77,12 +77,68 @@ h1{
 }
 
 .div3{
-    font-size: 45px;
-    margin-left: 100px;
-    
+    padding: 40px;
+    font-size: 30px;
 }
-.div3 p
 
-.div4{
+#div4{
     margin-left: 250px;
 }
+
+#app a button{
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 15px;
+    background-color: #9400d3;
+    color: white;
+    width: 16vw;
+    height: 5vw;
+}
+
+#app button:hover{
+    background-color: white;
+    transition: 0.8s;
+    color: #9400d3;
+    cursor: pointer;
+    border-color: #9400d3;
+}
+
+#descricao{
+    padding: 35vh;
+    background-color: #bc4ed8;
+    flex-wrap: wrap;
+    color: white;
+}
+#descricao h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 45px;
+}
+#descricao p{
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+#descricao a button{
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #9400d3;
+    color: white;
+    width: 16vw;
+    height: 5vw;
+}
+
+#descricao button:hover{
+    background-color: white;
+    transition: 0.8s;
+    color: #9400d3;
+    cursor: pointer;
+    border-color: #9400d3;
+}
+
