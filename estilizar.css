@@ -105,7 +105,7 @@ h1{
 }
 
 #descricao{
-    padding: 35vh;
+    padding: 30vh;
     background-color: #bc4ed8;
     flex-wrap: wrap;
     color: white;
@@ -141,4 +141,22 @@ h1{
     cursor: pointer;
     border-color: #9400d3;
 }
+.line{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
 
+#descricao img{
+     width: 60%;
+     height: 60%;
+     margin-top: -30px;
+     margin-left: 15vw;
+}
+
+.imgfundo{
+    background-image: url(imagens/Nubank\ fundo.webp);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no repeat;
+}
