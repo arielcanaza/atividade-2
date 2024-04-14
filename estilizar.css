@@ -15,15 +15,15 @@
 .header{
     
     background-color: #9400d3;
-    padding: 10vh;
+    padding: 13vh;
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
-    font-size: 2vh;
+    font-size: 2.5vh;
 
 }
 .header li a{
-    padding: 10px;
+    padding: 17px;
     color: white;
     cursor: pointer;
 }
@@ -36,25 +36,26 @@
 
 #sesao2{
     padding: 39vh;
-    background: linear-gradient(321deg, rgba(255,255,255,1) 0%, rgba(148,0,211,1) 92%);
+    background: rgb(181,62,211);
     color: white;
-    font: fallback;flex-wrap: wrap;
+    flex-wrap: wrap;
 
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 #sesao2 p{
     font-size: 2em;
+    margin-top: 25px;
 }
 
 #sesao2 a button{
     padding: 10px;
-    border-radius: 30px;
-    font-size: 15px;
-    margin-top: 15px;
+    border-radius: 2.5rem;
+    font-size: 1.2rem;
+    margin-top: 30px;
     background-color: #9400d3;
     color: white;
     width: 16vw;
@@ -87,8 +88,8 @@ h1{
 
 #app a button{
     padding: 10px;
-    border-radius: 30px;
-    font-size: 15px;
+    border-radius: 2.3rem;
+    font-size: 18px;
     margin-top: 15px;
     background-color: #9400d3;
     color: white;
@@ -124,8 +125,8 @@ h1{
 
 #descricao a button{
     padding: 10px;
-    border-radius: 30px;
-    font-size: 15px;
+    border-radius: 2.5rem;
+    font-size: 18px;
     margin-top: 30px;
     margin-bottom: 40px;
     background-color: #9400d3;
@@ -159,4 +160,51 @@ h1{
     width: 100%;
     background-size: cover;
     background-repeat: no repeat;
+    display: flex;
+    padding: 11rem;
+    color: white;
+}
+
+.cofre img{
+    width: 25rem;
+}
+.h2{
+   font-size: 30px;
+   color: black;
+   margin-left: 100px;
+   margin-top: 70px;
+}
+.h2 p{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.footer{
+    background-color: black;
+    padding: 4rem;
+    text-align: center;
+    color: white;
+}
+
+.footer img{
+    width: 180px;
+    text-align: center;
+    margin-top: -30px;
+
+}
+.footer div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer div p{
+    font-size: 20px;
+}
+
+.footer div a button{
+    font-size: 18px;
+    color: #9400d3;
+    background-color: black;
+    cursor: pointer;
+    
 }
